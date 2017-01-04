@@ -1,11 +1,11 @@
 // ==========================================================================
-// INVERSE HELPER
+// Inverse Helper Utility
 // ==========================================================================
 
 /*doc
 ---
 title: Inverse
-name: 13_inverse
+name: inverse
 category: utilities
 ---
 
@@ -17,7 +17,6 @@ The inverse color utility will set all text elements to white. This module is co
     <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Vivamus pharetra varius ullamcorper. Aliquam et nunc posuere, facilisis orci ac, luctus arcu.<p>
 </div>
 ```
-
 */
 
 @mixin inverse() {
@@ -37,8 +36,6 @@ The inverse color utility will set all text elements to white. This module is co
         }
     }
 }
-
-
 
 .u-inverse {
     @include inverse();
