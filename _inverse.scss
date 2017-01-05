@@ -28,7 +28,6 @@ The inverse color utility will set all text elements to white. This module is co
     .link--fake {
         @include link() {
             color: white;
-            @include underline(transparentize(white, 0.6));
         }
 
         @include link-hover() {
