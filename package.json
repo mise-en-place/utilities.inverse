@@ -18,5 +18,8 @@
     "url": "https://github.com/mise-en-place/utilities.inverse.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mep-tools.link": "github:mise-en-place/tools.link"
+  }
 }
